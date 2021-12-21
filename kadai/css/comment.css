@@ -1,0 +1,95 @@
+.page{
+    align-items: center;
+    margin:0 auto;
+}
+.manko{
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+    width: 300px;
+}
+.comment{
+    padding: 10px;
+    display: flex;
+    justify-content:flex-start;
+}
+.comment img{
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+
+.comment .u_name{
+ font-size: 12px;
+}
+.comment .comment2{
+font-size: 24px;
+}
+.comment .indate{
+    font-size: 8px;
+}
+.comment .yoko{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left:20px;
+}
+#text{
+    position: relative;
+    margin: 0 auto;
+    align-items: center;
+    /* width: 80px; */
+    display: flex;
+    justify-content: center;
+}
+input[type="submit"]{
+  display: block;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  color: #fff;
+  background: #555;
+  font-weight: bold;
+  height: 50px;
+  line-height: 3.0em;
+  width:50px;
+  padding: 0 2.5em 0 0.8em;
+  transition: 0.3s;
+  border-radius: 100px;
+  /* position: absolute;
+  top: 50%;
+  right:50%;
+  transform: translate(x, -50%); */
+  z-index:3;
+
+}
+.btn{
+  
+}
+/* svg{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+} */
+
+textarea{
+    /* display: block; */
+  border: none;
+  outline: 0;
+  border-radius:50px;
+  /* position: absolute; */
+  z-index:1;
+  /* background: rgba(99, 51, 100); */
+}
+.sousin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background: transparent;
+    border: none;
+  outline: 0;
+}

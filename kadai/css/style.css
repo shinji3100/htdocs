@@ -1,0 +1,96 @@
+
+.page{
+    width: 50%;
+    min-height: 100vh;
+    background: rgb(26, 22, 39);
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    position: relative;
+}
+img{
+    /* background-image: url(../img/mozaiku.jpeg); */
+}
+.form{
+    text-align: center;
+    align-items: center;
+}
+    h1{
+        color: #fff;
+        padding-top:60px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    /* form{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:50%;
+        margin-left:50%;
+        transform: translateX(-50%);
+        position: absolute;
+        list-style: none;
+    } */
+    .form2{
+        text-align: center;
+        align-items: center;
+    }
+    .btn{
+        color: rgb(186, 255, 83);
+        width: 100px;
+        height: 36px;
+        border-radius:18px;
+        border: 1px solid rgb(186, 255, 83);
+        background: rgb(26, 22, 39);
+        margin:20px auto;
+    }
+    .toukou{
+        background: rgb(55, 51, 73);
+        max-width:220px;
+        margin: 20px auto;
+        list-style: none;
+        padding: 20px;
+        border-radius:10px;
+      }
+    .gray{
+        color:rgb(147, 147, 147);
+    }
+    .white{
+        color:rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .circle{
+        width: 40px;
+        height: 40px;
+        border-radius:50%;
+        background:rgb(186, 255, 83);
+    }
+    .icon{
+      width: 30px;
+      height: 30px;
+      padding: 5px;
+    }
+    .navi{
+      width: 200px;
+      height: 60px;
+      border-radius:30px;
+      background:white;
+      display: flex;
+      justify-content: space-between;
+      padding:10px;
+      box-sizing:border-box;
+      position:fixed;
+      bottom: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      box-shadow: 0 0 12px rgb(68, 68, 68);
+    }
+    footer{
+        height:160px;
+    }
+    .mozaiku{
+        -ms-filter: blur(6px);
+	filter: blur(6px);
+    }
+    
